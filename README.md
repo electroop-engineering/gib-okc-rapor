@@ -15,6 +15,10 @@ Makinede aktif olan Java sürümü aşağıdaki komut ile terminal ya da komut i
 java -version
 ```
 
+## Gerekli AKİS Yönetici Paketi (AKİA) Sürümü
+
+Her zaman  [AKİS Yönetici Paketi](https://akiskart.bilgem.tubitak.gov.tr/destek/) son sürümü kurulu olmalıdır. AKİA sürümü, EC 384 Algoritma geçişini destekleyecek şekilde MacOS için en az 6.8.4 olmalıdır. 
+
 ## Kurulum
 
 Programı Windows ya da MacOS işletim sistemine sahip masaüstü bilgisayarınıza kurmak için aşağıdaki adımları izleyiniz:  
@@ -50,4 +54,4 @@ Yazılımın geliştirilmesinde [TÜBİTAK MA3 e-İmza kütüphanelerinden](http
 
 [Electroop](https://electroop.io), hizmet verdiği müşterileri haricinde, yazılımla ilgili destek verme, güncelleme, doğru ve zamanında çalışmayı temin etme taahhüdünde bulunmadığı gibi, bu yazılımın kullanılmasından, değiştirilmesinden doğabilecek sonuçlardan da sorumlu tutulamaz. Yazılımın yukarıda belirtilen hususlara dikkat edilerek, amaca uygun olarak, doğru verilerle, doğru bir biçimde kullanılıp kullanılmadığı, programı indirerek kullanan kişi ve kuruluşların sorumluluğundadır. Electroop, yazılımın kimler tarafından hangi amaçla kullanıldığı bilgisini haiz değildir; ancak bu yazılım yoluyla programı kullanan kişilerin makinelerinden rapor verisi, kişisel bilgiler, rapor gönderim logları dahil olmak üzere, hiçbir dosyayı ve veriyi hiçbir şekilde edinmediğini, gerektiği takdirde kodla da kendiliğinden belgelenebileceği üzere, ilgililere bildirir ve açıkça beyan eder.   
 
-&copy;Electroop, 2024
+&copy;Electroop, 2024-2025

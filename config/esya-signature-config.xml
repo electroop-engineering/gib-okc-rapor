@@ -61,7 +61,9 @@
         <use-validation-data-published-after-creation>false</use-validation-data-published-after-creation>
 
         <validate-certificate-before-signing>false</validate-certificate-before-signing>
-
+		
+		<!-- default value: 300 seconds -->
+		<tolerate-signing-time-in-seconds>300</tolerate-signing-time-in-seconds>
     </certificate-validation>
 
     <params>

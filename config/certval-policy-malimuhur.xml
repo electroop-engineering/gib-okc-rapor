@@ -8,9 +8,9 @@
             <!--class name="tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.trusted.TrustedCertificateFinderFromFileSystem">
                 <param name="dizin" value="path\to\trusted certificates"/>
             </class-->
-			<class name="tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.trusted.TrustedCertificateFinderFromXml">
-				<param name="storepath" value="http://www.kamusm.gov.tr/depo/xml/XmlDepo.xml"/>
-			</class>
+			<!-- <class name="tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.trusted.TrustedCertificateFinderFromXml">
+				<param name="storepath" value="http://depo.kamusm.gov.tr/depo/SertifikaDeposu.xml"/>
+			</class> -->
              <!--class name="tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.trusted.TrustedCertificateFinderFromXml">
 				<param name="storepath" value="/projects/JavaApplication/SertifikaDeposu.xml"
              </class-->
@@ -18,7 +18,7 @@
         <certificate>
             <class name="tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.CertificateFinderFromECertStore"/>
 			<class name="tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.CertificateFinderFromHTTP"/>
-            <class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.CertificateFinderFromLDAP"/>
+            <!-- <class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.certificate.CertificateFinderFromLDAP"/> -->
 		</certificate>
         <deltacrl/>
     </find>  
@@ -40,17 +40,7 @@
 			<class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.match.ocsp.CertIDOCSPResponseMatcher"/>
 		</ocsp>
     </match>
-	<save>
-		<crl>
-			<class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.save.CertStoreCRLSaver"/>
-		</crl>
-        <!--ocsp>
-            <class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.save.CertStoreOCSPResponseSaver"/>
-        </ocsp>
-        <certificate>
-            <class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.save.CertStoreCertificateSaver"/>
-        </certificate-->
-	</save>
+	<save/>
     <validate>
         <certificate>
             <self>
@@ -88,13 +78,13 @@
                     <param name ="checkallcrls" value="false"/>
                     <param name ="devam" value="false"/>
                     <find>
-			     		<class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.crl.CRLFinderFromECertStore"/>
+			     		class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.crl.CRLFinderFromECertStore"/>
 						<class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.crl.CRLFinderFromECertStore">
 			     			<param name = "getactivecrl" value="true"/>
-			     		</class>
+                        </class>
                         <class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.crl.CRLFinderFromHTTP"/>
 						<class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.crl.CRLFinderFromCRLFinderService"/>
-                        <class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.crl.CRLFinderfromLDAP"/>
+                        <!-- <class name = "tr.gov.tubitak.uekae.esya.api.certificate.validation.find.crl.CRLFinderfromLDAP"/> -->
                     </find>
                 </class>
 			</revocation>
