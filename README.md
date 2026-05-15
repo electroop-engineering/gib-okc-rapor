@@ -4,7 +4,7 @@
 
 [Electroop](https://electroop.io) tarafından sağlanan bu masaüstü Java uygulaması sayesinde, AKİS uyumlu USB akıllı kart tipindeki mali mührünüzü kullanarak, elektrikli araçların şarj hizmetlerine ilişkin, ŞARJANLIK türünde düzenlediğiniz faturalara karşılık gelen aylık raporlarınızı Gelir İdaresi Başkanlığı'nın ÖKC (Ödeme Kaydedici Cihaz) web servisine imzalı ve toplu olarak, tek dosya halinde gönderebilirsiniz.  
 
-![Ekran Görüntüsü](img/ss.jpg)
+![Ekran Görüntüsü](img/ss.png)
 
 ## Gerekli Java Sürümü
 
@@ -54,4 +54,4 @@ Yazılımın geliştirilmesinde [TÜBİTAK MA3 e-İmza kütüphanelerinden](http
 
 [Electroop](https://electroop.io), hizmet verdiği müşterileri haricinde, yazılımla ilgili destek verme, güncelleme, doğru ve zamanında çalışmayı temin etme taahhüdünde bulunmadığı gibi, bu yazılımın kullanılmasından, değiştirilmesinden doğabilecek sonuçlardan da sorumlu tutulamaz. Yazılımın yukarıda belirtilen hususlara dikkat edilerek, amaca uygun olarak, doğru verilerle, doğru bir biçimde kullanılıp kullanılmadığı, programı indirerek kullanan kişi ve kuruluşların sorumluluğundadır. Electroop, yazılımın kimler tarafından hangi amaçla kullanıldığı bilgisini haiz değildir; ancak bu yazılım yoluyla programı kullanan kişilerin makinelerinden rapor verisi, kişisel bilgiler, rapor gönderim logları dahil olmak üzere, hiçbir dosyayı ve veriyi hiçbir şekilde edinmediğini, gerektiği takdirde kodla da kendiliğinden belgelenebileceği üzere, ilgililere bildirir ve açıkça beyan eder.   
 
-&copy;Electroop, 2024-2025
+&copy;Electroop, 2024-2026
